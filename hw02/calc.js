@@ -48,7 +48,7 @@ function ins(num) {
 	console.log("Testing");
 	let result = document.getElementById("result");
 	
-	if(displayedNum == "0" && num == "0") {
+	if(displayedNum == "0" && num == "0" && !calculationDone) {
 		return;
 	}
 	if(displayedNum.includes(".") && num == "." && !calculationDone) {
